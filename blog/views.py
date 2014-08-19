@@ -13,7 +13,7 @@ def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     return render(request, 'blog/post_detail.html', {'post': post})
 
-# TODO; this needs date and time or it won't appear later.
+# TODO; this needs published_date or it won't appear later.
 def post_new(request):
     if request.method == "POST":
         form = PostForm(request.POST)
