@@ -1,0 +1,8 @@
+From: http://tutorial.djangogirls.org/django_urls/README.html
+
+http://heroku.com
+dalem@QnD:~/PycharmProjects/djangogirls⟫ heroku create
+Creating shrouded-peak-5812... done, stack is cedar
+http://shrouded-peak-5812.herokuapp.com/ | git@heroku.com:shrouded-peak-5812.git
+dalem@QnD:~/PycharmProjects/djangogirls⟫
+
